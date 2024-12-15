@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+section {
+	background-color: rgb(245, 245, 245);
+}
+
+.title {
+	font-size: 120px;
+	margin-bottom: 12px;
+	text-align: left;
+	line-height: 1;
+}
+
+.blue {
+	color: blue !important;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/*
+
+LANDING PAGE
+
+*/
+#landing-page {
+	min-height: 100vh;
+}
+
+.header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	max-width: 1000px;
+}
+
+.header__para {
+	font-size: 24px;
+	line-height: 2;
+	max-width: 500px;
+}
+
+/*
+
+NAVIGATION
+
+*/
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1150px;
+	margin: 0 auto;
+	height: 100px;
+}
+.nav__link--list {
+	display: flex;
+}
+
+.nav__link {
+	margin: 0 12px;
+}
+
+.nav__link--anchor {
+	text-decoration: none;
+	color: #242424;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.fa-circle-half-stroke {
+	font-size: 20px;
+}
