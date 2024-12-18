@@ -15,6 +15,10 @@ section {
 	background-color: rgb(245, 245, 245);
 }
 
+.container {
+padding: 50px 0;
+}
+
 .title {
 	font-size: 120px;
 	margin-bottom: 12px;
@@ -63,12 +67,13 @@ LANDING PAGE
 
 .header {
 	position: absolute;
-	top: 80%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 100%;
 	max-width: 1000px;
-	padding: 0 30px;
+	padding: 70px 30px;
+	margin-top: 96px;
 	
 }
 
@@ -112,7 +117,7 @@ LANDING PAGE
 
 .scroll {
 	position: absolute;
-	bottom: 20px;
+	bottom: 30px;
 	left: 50%;
 	transform: translateX(-50%);
 }
